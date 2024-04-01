@@ -106,6 +106,7 @@ p {
 @media (max-width: 575px) {
   h1 {
     font-size: 2em;
+    padding: 10px;
   }
 
   h2 {
