@@ -44,12 +44,27 @@ p {
 
 .primary-link {
   border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.contact {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  width: 100px;
 }
 
 .secondary-link {
@@ -59,6 +74,7 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  width: 100px;
 }
 
 .homepage-link {
@@ -96,7 +112,15 @@ p {
     font-size: 1.5em;
   }
 
+  h3 {
+    font-size: 1.2em;
+  }
+
   img {
     display: none;
+  }
+
+  .about-paragraphs {
+    margin-top: 47px;
   }
 }
